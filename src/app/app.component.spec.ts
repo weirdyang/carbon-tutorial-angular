@@ -8,8 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { UIShellModule } from 'carbon-components-angular';
 
 describe('AppComponent', () => {
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(() => {
+    TestBed.configureTestingModule({
       imports: [RouterTestingModule, UIShellModule],
       declarations: [AppComponent, HeaderComponent],
     }).compileComponents();
